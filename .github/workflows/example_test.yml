@@ -12,3 +12,6 @@ jobs:
       - name: Run tests
         run: |
           python -m tests
+      - name:
+        run: |
+          echo "Тесты прошли - значит делаем действие"

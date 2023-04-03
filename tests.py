@@ -1,11 +1,10 @@
-import unittest
+import pytest
 from main import Operator
 
-class TestOperator(unittest.TestCase):
-    example = Operator(4, 2)
-    def test_one(self):
-        self.assertEqual(self.example.adding(), 5)
+test_example = Operator(4, 2)
+def test_one():
+    assert test_example.adding() == 6
 
-    def test_two(self):
-        self.assertEqual(self.example.subtracting(), 2)
+def test_two():
+    assert test_example.subtracting() == 2
 
