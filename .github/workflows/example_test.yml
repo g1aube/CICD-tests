@@ -15,7 +15,7 @@ jobs:
           pip install -r requirements.txt
       - name: Run tests
         run: |
-          python tests.py
+          python test.py
       - name:
         run: |
           echo "Тесты прошли - значит делаем действие"
