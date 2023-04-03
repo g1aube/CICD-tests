@@ -4,7 +4,7 @@ from main import Operator
 class TestOperator(unittest.TestCase):
     example = Operator(4, 2)
     def test_one(self):
-        self.assertEqual(self.example.adding(), 6)
+        self.assertEqual(self.example.adding(), 5)
 
     def test_two(self):
         self.assertEqual(self.example.subtracting(), 2)
