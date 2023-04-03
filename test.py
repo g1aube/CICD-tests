@@ -8,3 +8,6 @@ def test_one():
 def test_two():
     assert test_example.subtracting() == 2
 
+if __name__ == '__main__':
+    test_one()
+    test_two()
